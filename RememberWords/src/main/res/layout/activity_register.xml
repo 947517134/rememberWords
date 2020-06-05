@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_useruame_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/login"
+        android:hint="用户名,必填"
+        android:maxLength="11"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_phone_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/phone"
+        android:hint="手机号，必填"
+        android:maxLines="11"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_email_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@id/et_phone_re"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/email"
+        android:hint="邮箱"
+        android:paddingLeft="15dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_password_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@id/et_email_re"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password"
+
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:maxLines="11"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/et_password_qr_re"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_below="@id/et_password_re"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/password"
+
+        android:hint="确认密码"
+        android:inputType="textPassword"
+        android:maxLines="11"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:id="@+id/bt_Register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et2"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt_press"
+        android:text="注册"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

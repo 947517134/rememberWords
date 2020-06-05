@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="功能">
+            <menu>
+                <item
+                    android:id="@+id/item_inform"
+                    android:icon="@drawable/login"
+                    android:title="个人信息" />
+                <item
+                    android:id="@+id/item_rememberWord"
+                    android:icon="@drawable/dc"
+                    android:title="背单词" />
+                <item
+                    android:id="@+id/item_statistics"
+                    android:icon="@drawable/sj"
+                    android:title="数据统计" />
+
+                <item
+                    android:id="@+id/item_img"
+                    android:icon="@drawable/zz"
+                    android:title="老二次元了" />
+                <item
+                    android:id="@+id/item_youdao"
+                    android:icon="@drawable/fx"
+                    android:title="单词搜索" />
+                <item
+                    android:id="@+id/item_music"
+                    android:icon="@drawable/music"
+                    android:title="音乐" />
+                <item
+                    android:id="@+id/item_note"
+                    android:icon="@drawable/music"
+                    android:title="记事本" />
+            </menu>
+        </item>
+
+        <item android:title="关于我们">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/item_zz"
+                        android:icon="@drawable/zz"
+                        android:title="赞助" />
+                    <item
+                        android:id="@+id/item_gx"
+                        android:icon="@drawable/gx"
+                        android:title="特别感谢" />
+                    <!--                    <item-->
+                    <!--                        android:id="@+id/item_"-->
+                    <!--                        android:icon="@drawable/hp"-->
+                    <!--                        android:title="五星好评" />-->
+                    <!--                    <item-->
+                    <!--                        android:id="@+id/item_fk"-->
+                    <!--                        android:icon="@drawable/fk"-->
+                    <!--                        android:title="反馈" />-->
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+</menu>

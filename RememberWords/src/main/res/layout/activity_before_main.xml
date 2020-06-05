@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:foregroundGravity="center_horizontal"
+        android:src="@drawable/tub" />
+
+    <Button
+        android:id="@+id/toLogin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bt_press"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/toReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_press"
+        android:text="注册" />
+
+<!--    <Button-->
+<!--        android:id="@+id/test"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@drawable/bt_press"-->
+<!--        android:text="测试" />-->
+
+</LinearLayout>

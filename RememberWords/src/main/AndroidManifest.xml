@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.internetpic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tub"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tub"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service
+            android:name=".service.TestMusicService"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <activity android:name=".test.TestMusicActivity" android:exported="true" />
+        <activity
+            android:name=".listview.ListViewMusicActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".activity.youdao_WebView" />
+        <activity
+            android:name=".activity.updatePwdActivity"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.BeforeMainActivity"
+            android:theme="@style/AppTheme2">
+            <!-->
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+            <-->
+        </activity>
+
+
+        <!-- 启动封面 -->
+        <activity android:name=".WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Sql"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".activity.PicActivity" />
+
+        <service
+            android:name=".service.MusicService"
+            android:enabled="false"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

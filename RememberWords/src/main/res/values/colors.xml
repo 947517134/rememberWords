@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#F7F7F7</color>
+    <color name="black">#000000</color>
+    <color name="clor">#F25546</color>
+    <color name="hui">#DDDDDD</color>
+    <color name="tra">#00000000</color>
+    <color name="anhong">#641710</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="softblack">#33000000</color>
+</resources>
